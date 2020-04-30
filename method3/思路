@@ -1,0 +1,20 @@
+step1: 数据预处理
+customer_pur_recoder={vipno:[purTime，pluno, category:[]]}
+
+step2: 对于每个客户，构造FTCTree
+ftctree_dict={vipno:FTCTree}
+
+//实现GetCT函数
+//由几个更小的函数组成
+step3: 求unionTree（利用迭代，temp_unionTree与新客户FTCTree进行union即可）
+
+step4: 求AvgFreq(utree)和MaxFreq(utree)
+
+step5: 实现update(utree,freq)函数
+
+step6: 实现Dist(FTCTree,utree)函数
+
+//实现BIC
+step7: 实现簇的分裂算法（Kmeans）
+
+step8: 实现求bic函数，对于分裂前后的簇，分别求bic
